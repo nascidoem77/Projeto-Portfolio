@@ -29,4 +29,3 @@ document.querySelector('.scroll').addEventListener('mouseenter', () => {
     document.getElementById("sobre").scrollIntoView({behavior:'smooth'});
     });
 
-    
