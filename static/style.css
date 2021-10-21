@@ -228,3 +228,7 @@ i.menu-mobile {
   background: #fff;
   border-radius: 50%;
 }
+
+.carousel-indicators {
+  margin-bottom: -35px;
+}
