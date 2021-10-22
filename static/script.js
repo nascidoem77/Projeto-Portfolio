@@ -58,16 +58,13 @@ const btnEnviarLoader = document.querySelector('#btn-enviar-loader');
 
 btnEnviar.addEventListener('click', () => {
 
-  if(document.getElementById("nome").value.length > 0){
+  if(document.getElementById("nome").value.length > 0 &&
+   document.getElementById("email").value.length > 0 && 
+   document.getElementById("mensagem").value.length > 0) {
 
     btnEnviar.style.display = 'none';
     btnEnviarLoader.style.display = 'block';
     }
-  else {
-      alert('Por favor, preencha todos os campos!');
-      return false;
-    }
-
 })
 
 setTimeout(() => {
