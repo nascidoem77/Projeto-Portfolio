@@ -47,6 +47,29 @@ const animeScroll = () => {
 
 animeScroll();
 
-window.addEventListener("scroll", ()=>{ 
+window.addEventListener("scroll", () => { 
   animeScroll();
 })
+
+// Ativar carregamento do botão enviar mensagem
+
+const btnEnviar = document.querySelector('#btn-enviar');
+const btnEnviarLoader = document.querySelector('#btn-enviar-loader');
+
+btnEnviar.addEventListener('click', () => {
+
+  if(document.getElementById("nome").value.length > 0){
+
+    btnEnviar.style.display = 'none';
+    btnEnviarLoader.style.display = 'block';
+    }
+  else {
+      alert('Por favor, preencha todos os campos!');
+      return false;
+    }
+
+})
+
+setTimeout(() => {
+  document.querySelector('#alerta').style.display = 'none';
+}, 5000)
