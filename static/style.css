@@ -103,11 +103,11 @@ section#inicio {
 }
 
 section#inicio h2 {
-  font-size: 3rem;
+  font-size: 3.3rem;
 }
 
 section#inicio span#subtitle {
-  margin-right: 2.6rem;
+  margin-right: 9.2rem;
   font-size: 1.2rem;
 }
 
@@ -176,6 +176,10 @@ i.menu-mobile {
 
 .section-bg {
   background-color: rgb(228, 228, 228);
+}
+
+.img-fluid{
+    border-radius: 7%;
 }
 
 .progress-bar-xp {
