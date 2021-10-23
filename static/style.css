@@ -111,6 +111,17 @@ section#inicio span#subtitle {
   font-size: 1.2rem;
 }
 
+#sobreTxt a {
+  color: rgb(170, 130, 30);
+  text-decoration: none;
+  
+}
+
+.modal-footer a{
+  color: rgb(34, 34, 34);
+  text-decoration: none;
+}
+
 .text-shadow {
   text-shadow: 4px 4px 10px black;
 }
@@ -178,8 +189,8 @@ i.menu-mobile {
   background-color: rgb(228, 228, 228);
 }
 
-.img-fluid{
-    border-radius: 7%;
+.img-fluid {
+  border-radius: 7%;
 }
 
 .progress-bar-xp {
@@ -275,7 +286,7 @@ i.menu-mobile {
   }
 }
 
-#btn-enviar-loader{
+#btn-enviar-loader {
   display: none;
 }
 
