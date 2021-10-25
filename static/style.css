@@ -165,10 +165,12 @@ i.menu-mobile {
 @media (max-width: 1024px) {
   #header {
     left: -300px;
+    background-image: url("./img/bg_home.jpg");
   }
 
   i.menu-mobile {
     display: flex;
+    background-image: url();
   }
 
   section#inicio h2 {
