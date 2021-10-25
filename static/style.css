@@ -230,8 +230,8 @@ i.menu-mobile {
   margin-top: 10px;
 }
 
-.cv .cv-item h5 {
-  background: #e4edf9;
+.cv .cv-item h6 {
+  background: rgb(209, 209, 209);
   display: inline-block;
   margin-bottom: 10px;
 }
