@@ -93,7 +93,7 @@ body {
 }
 
 section#inicio {
-  background-image: url("./img/bg_home.jpg");
+  background-image: url("./img/bg_home.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
