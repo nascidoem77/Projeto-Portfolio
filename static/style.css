@@ -169,7 +169,6 @@ i.menu-mobile {
 
   i.menu-mobile {
     display: flex;
-    background-image: url("./img/bg_home.jpg");
   }
 
   section#inicio h2 {
