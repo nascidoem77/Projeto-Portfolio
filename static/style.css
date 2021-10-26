@@ -171,6 +171,11 @@ i.menu-mobile {
     display: flex;
   }
 
+  section#inicio {
+    background-image: url("./img/bg_home.jpg");
+    background-repeat: no-repeat;
+  }
+  
   section#inicio h2 {
     font-size: 2rem;
   }
