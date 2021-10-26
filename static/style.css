@@ -5,11 +5,6 @@ body {
   font-family: Ubuntu, Arial;
   width: 100%;
   height: 100%;
-  background-image: url("./img/bg_home.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
 }
 
 #header {
@@ -190,12 +185,8 @@ i.menu-mobile {
   }
 }
 
-.section-bg-gray {
+.section-bg {
   background-color: rgb(228, 228, 228);
-}
-
-.section-bg-white {
-  background-color: #fff;
 }
 
 .img-fluid {
