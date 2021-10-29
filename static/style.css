@@ -289,3 +289,9 @@ i.menu-mobile {
   top: 30px;
   right: 30px;
 }
+
+input, textarea {
+  border-color: gray;
+  box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+}
+
